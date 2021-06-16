@@ -1,0 +1,61 @@
+*{
+    margin: 8px;
+    border-radius: 5px;
+}
+header{
+    background-color: rgb(255, 153, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+aside{
+    grid-column: 1/2;
+    background-color: rgb(122, 100, 168);
+}
+section{
+    grid-column: 2/5;
+    background-color: rgb(122, 95, 143);
+}
+footer{
+    text-align: center;
+    background-color: rgb(32, 45, 70);
+    color: cornsilk;
+    padding: 10px;
+}
+.menu{/* 1ra prueba*/
+    display: flex;
+}
+nav ul {/* 2da prueba*/
+    list-style: none;
+    padding: 5px;
+    color: #fff;
+    background: rgb(5, 5, 5);
+}
+.menu li {
+    width: 100%;
+    text-align: center;
+}
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: chocolate;
+    height: 25px;
+    text-decoration: none;
+}
+.dropdown li {
+    display: none;
+}
+.menu li:hover .dropdown li {
+    display: block;
+}
+.menu a:hover {
+    background: blueviolet;
+    color: #fff;
+
+}

@@ -1,0 +1,14 @@
+
+header{
+    background-color: rgb(255, 153, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(32, 45, 70);
+    color: cornsilk;
+    padding: 10px;
+}

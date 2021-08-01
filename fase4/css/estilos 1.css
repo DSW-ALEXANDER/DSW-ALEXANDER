@@ -12,3 +12,14 @@ footer{
     color: cornsilk;
     padding: 10px;
 }
+
+.contenedor{
+    background-color: rgb(49, 243, 49);
+    }
+    @media screen and (min-width:600px) {
+        .contenedor{
+            background-color: rgb(235, 231, 48);
+        
+        }
+
+     } 
